@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+  <h2>Başvurunuz Alındı</h2>
+  <p>Sayın {{ basvuru.ad }} {{ basvuru.soyad }},</p>
+
+  <div class="alert alert-info mt-4">
+    İptal ve iade başvurunuz alınmıştır. iade işlemleriniz kurum yönetimince değerlendirildikten sonra iade durumunuz hakkında e-posta ile bilgilendirileceksiniz.
+
+{% endblock %}

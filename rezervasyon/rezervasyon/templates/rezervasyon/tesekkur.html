@@ -1,0 +1,12 @@
+<!-- templates/rezervasyon/tesekkur.html -->
+
+<h2>Başvurunuz Alındı</h2>
+<p>Sayın {{ basvuru.ad }} {{ basvuru.soyad }}, iptal talebiniz başarıyla alındı.</p>
+
+<p><strong>Başvuru Tarihi:</strong> {{ basvuru.basvuru_tarihi }}</p>
+<p><strong>Rezervasyon Tarihi:</strong> {{ basvuru.rezervasyon_tarihi }}</p>
+<p><strong>Ücret:</strong> {{ basvuru.ucret }} ₺</p>
+
+<hr>
+<h4>İade Durumu</h4>
+<p style="color: green;">{{ iade_durumu }}</p>
