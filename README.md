@@ -1,5 +1,5 @@
-barissaslan/django-projesini-yayina-alma
-
+#barissaslan/django-projesini-yayina-alma
+#https://github.com/barissaslan/django-projesini-yayina-alma.git DEPOSUNDAN ALINMIŞTIR.
 Django Projesini Yayına Alma
 YouTube kanalımdaki Django Uygulamasını Yayına Alma adlı video ders serisi için dökümantasyon.
 
@@ -342,3 +342,9 @@ Django Production Settings dosyasına eklenmesi gerekenler:
    CSRF_COOKIE_SECURE = True
 Nginx sunucusunu yeniden başlatma:
    sudo systemctl restart nginx
+
+[1] https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04
+
+[2] https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04
+
+   
